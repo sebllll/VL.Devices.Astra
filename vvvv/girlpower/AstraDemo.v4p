@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha36.1.dtd" >
-   <PATCH nodename="C:\VL\VL.Devices.Astra\vvvv\girlpower\AstraDemo.v4p" systemname="AstraDemo" filename="C:\Users\joreg\Documents\repos\vl-others\VL.Astra\vvvv\girlpower\AstraDemo.v4p" scrollx="0" scrolly="195">
-   <BOUNDS type="Window" left="750" top="7440" width="17670" height="8310">
+   <PATCH nodename="C:\VL\VL.Devices.Astra\vvvv\girlpower\AstraDemo.v4p" systemname="AstraDemo" filename="C:\Users\joreg\Documents\repos\vl-others\VL.Astra\vvvv\girlpower\AstraDemo.v4p" scrollx="0" scrolly="0">
+   <BOUNDS type="Window" left="750" top="7440" width="18975" height="8310">
    </BOUNDS>
    <PACK Name="dx11" Version="1.3">
    </PACK>
@@ -178,7 +178,7 @@
    </NODE>
    <LINK srcnodeid="52" srcpinname="Texture Out" dstnodeid="54" dstpinname="Texture In">
    </LINK>
-   <NODE systemname="Astra (Devices)" filename="vl\VVVV.Devices.Astra.vl" nodename="Astra (Devices)" componentmode="Hidden" id="56">
+   <NODE systemname="DualAstra (Devices)" filename="C:\VL\VL.Devices.Astra\vvvv\girlpower\vl\VVVV.Devices.Astra.vl" nodename="Astra (Devices)" componentmode="Hidden" id="56">
    <BOUNDS type="Node" left="750" top="795" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Box" left="750" top="795">
