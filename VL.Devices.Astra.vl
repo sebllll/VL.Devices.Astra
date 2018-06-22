@@ -2921,7 +2921,7 @@
             <Pad Id="H9FCPx7eHcFOZsCfjGcV2V" SlotId="AJbQosdd2QmPHRuf2lJWXW" Bounds="1309,50">
               <p:ValueBoxSettings />
             </Pad>
-            <Pad Id="BqSlcxxToHiOPjO3pege9z" Comment="EnableColor" Bounds="1309,10,40,19" ShowValueBox="true" isIOBox="true" Value="true">
+            <Pad Id="BqSlcxxToHiOPjO3pege9z" Comment="EnableColor" Bounds="1309,10,40,19" ShowValueBox="true" isIOBox="true" Value="false">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="Boolean" />
                 <FullNameCategoryReference ID="Primitive" />
@@ -3047,8 +3047,10 @@
             <Pad Id="T7ou6r35XhmON8dn8WdBeE" SlotId="KYv3woTLa73PLEoBxZJojw" Bounds="608,1362">
               <p:ValueBoxSettings />
             </Pad>
-            <Pad Id="ASIeczdPFJTLE1m3ESZHWc" Comment="Reader" Bounds="1296,513,474,181" ShowValueBox="true" isIOBox="true" />
             <ControlPoint Id="PbK3XY2Fh7CNwsgwf4DRTd" Bounds="203,532" />
+            <ControlPoint Id="V3vHdnHRwkMNVr2QLdrC4f" Bounds="411,-237" />
+            <ControlPoint Id="KT4VbP2szlfLhGtoo7DONj" Bounds="637,771" />
+            <ControlPoint Id="MDxKJf6vvxnPFEctOxrplo" Bounds="1114,765" />
           </Canvas>
           <Patch Id="IGFeg9Hg3v5Ov45txu6MKt" Name="Create" ParticipatingElements="RtFcBqKLW8hLSxtiPBE76P,CWYRQpVCRJzNrT0K8lwDK6" />
           <Patch Id="U63pw6171C4PiDbrVPUCe4" Name="Update" ManuallySortedPins="true">
@@ -3068,6 +3070,9 @@
               </p:TypeAnnotation>
             </Pin>
             <Pin Id="NgUj0JYVJtIOBJepBdN4RM" Name="ColorImageRadioButton" Kind="InputPin" />
+            <Pin Id="UeZotQ1ADXTL4q2YI3T9oW" Name="manual init" Kind="InputPin" Bounds="411,-237" />
+            <Pin Id="FNzXQ757aAIMiUgbpqhXUd" Name="restart" Kind="InputPin" Bounds="637,771" />
+            <Pin Id="TrikxsiYU1HOTJohWpJDpM" Name="abort" Kind="InputPin" Bounds="1113,765" />
             <Pin Id="GBAyZxtJHjHN4nlNJZSyyo" Name="Output" Kind="OutputPin" Bounds="323,1664" />
             <Pin Id="OohpAd7T8u6NeAnn1veppK" Name="depthImagemodes" Kind="OutputPin" Bounds="394,811" />
             <Pin Id="FXbQ8PVEFYRLK4UUfYRT7p" Name="colorImageModes" Kind="OutputPin" Bounds="775,805" />
@@ -3251,8 +3256,13 @@
           <Link Id="SQFG4fyszO8LyjHrNSGosM" Ids="GrfYNcg1cX0O7WRUGhqKhV,RXImv5LPAJ7O3PmYgnhtig" />
           <Link Id="E8NmG9rIAEHNOfmHn4TPV5" Ids="T7ou6r35XhmON8dn8WdBeE,IUNYGt56O3WPMSH0jUDAl9" />
           <Link Id="KsuQdjItvbRMzcFPU9zvyv" Ids="P25umAHsMW1Ns74mwYPPga,SOtGqT8kZuBPPXWyhG20bl" />
-          <Link Id="EDRmXtK1iK2PwHYO10dMg0" Ids="DECn3sRYHt7PksO5mq3IJ0,ASIeczdPFJTLE1m3ESZHWc" />
           <Link Id="DC11Cf6M8UmNYf95ucHxzJ" Ids="EDHGq9JSF7GN81yZE3ndvP,PbK3XY2Fh7CNwsgwf4DRTd,EsWNfDruFMyMeW0d3U3FGP" />
+          <Link Id="JaGw8g6tApcLMXEnLOxg04" Ids="V3vHdnHRwkMNVr2QLdrC4f,RxVFGSxe1jeMemVWooEsdU" />
+          <Link Id="SqulB1PsGvZPiriJ3kCJtJ" Ids="UeZotQ1ADXTL4q2YI3T9oW,V3vHdnHRwkMNVr2QLdrC4f" IsHidden="true" />
+          <Link Id="P7HmCrDrCeFPxdLtMlGbpo" Ids="KT4VbP2szlfLhGtoo7DONj,BBaHC6hghQaQCEGMhiO8bk" />
+          <Link Id="AX9JlGCsFewPHWRZVXsQRK" Ids="FNzXQ757aAIMiUgbpqhXUd,KT4VbP2szlfLhGtoo7DONj" IsHidden="true" />
+          <Link Id="NpF2IpzgaHeOIs7sRyAboc" Ids="MDxKJf6vvxnPFEctOxrplo,BPpRi7m93V3OGFuCGdlbmY" />
+          <Link Id="AdfBbPjAk2WMf0dBl4grjR" Ids="TrikxsiYU1HOTJohWpJDpM,MDxKJf6vvxnPFEctOxrplo" IsHidden="true" />
         </Patch>
       </Node>
     </Canvas>
