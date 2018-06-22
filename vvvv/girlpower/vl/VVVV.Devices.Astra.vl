@@ -20,8 +20,10 @@
             <Pin Id="N7fV90wFmvvP5AKeLOqyCQ" Name="Depth Image" Kind="OutputPin" Bounds="295,263" />
             <Pin Id="JXpDE3plFp9QTCKSiBHjQC" Name="Color Image" Kind="OutputPin" Bounds="295,263" />
             <Pin Id="Q592ADxkgJPNdM9MC5CxZf" Name="Connection String" Kind="InputPin" Bounds="534,74" />
+            <Pin Id="NpDcRrTxyD2PI1MpuYvOVX" Name="DepthImageRadioButton" Kind="InputPin" Bounds="384,71" />
             <Pin Id="IyasV0o24DZLV2I8gVy82H" Name="Body Status" Kind="OutputPin" Bounds="389,1720" />
             <Pin Id="JUwwhaID2tmQLtqPel06H2" Name="Joints" Kind="OutputPin" Bounds="469,1724" />
+            <Pin Id="BEjsDhSHBj7OomKeaIfxtT" Name="ColorImageRadioButton" Kind="InputPin" Bounds="540,80" />
             <Pin Id="NTfR0uIHwWlLSZrBaUzP9j" Name="DepthImageModes" Kind="OutputPin" Bounds="705,434" />
             <Pin Id="RHup0HPRRpSPU7ATLla7Ar" Name="ColorImageModes" Kind="OutputPin" Bounds="907,405" />
           </Patch>
@@ -33,8 +35,10 @@
                 <CategoryReference Kind="Category" Name="Astra" NeedsToBeDirectParent="true" />
               </p:NodeReference>
               <Pin Id="GfkFbZaHiRdQcomxHZfhEl" Name="Connection String" Kind="InputPin" />
-              <Pin Id="PaJILrCQT1qO0RuiSG0fab" Name="Output" Kind="OutputPin" />
+              <Pin Id="MhxJZz7nsbxOmcV5MDVl2H" Name="DepthImageRadioButton" Kind="InputPin" />
+              <Pin Id="OCDfHLjj1i9PjEMsuiH3DW" Name="ColorImageRadioButton" Kind="InputPin" />
               <Pin Id="OMrkBA2fqlBNcpPyIVnG7s" Name="depthImagemodes" Kind="OutputPin" />
+              <Pin Id="PaJILrCQT1qO0RuiSG0fab" Name="Output" Kind="OutputPin" />
               <Pin Id="HZonsh1JZGCNtdyN2Epl6d" Name="colorImageModes" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="A9Vo4XEQa1pNyhitHzp2Hx" Bounds="88,386" />
@@ -184,6 +188,8 @@
               <ControlPoint Id="Ksj0s33uy7RLNG0nlJwdil" Bounds="905,368" Alignment="Bottom" />
             </Node>
             <ControlPoint Id="IFmE2naMgUJLI2b4rgtdkI" Bounds="907,405" />
+            <ControlPoint Id="Tl9HlwlivnSLBu4BEhrJAD" Bounds="384,71" />
+            <ControlPoint Id="HG6xyVSyuClQENXLlUI2lE" Bounds="540,80" />
           </Canvas>
           <ProcessDefinition Id="FHNLl8GWgcVOJzRkkPI83E">
             <Fragment Id="MRFnVwHDf0WOO7H3jKbCxI" Patch="ESJZDDS0I02LAWDOx9RJVV" Enabled="true" />
@@ -224,6 +230,10 @@
           <Link Id="FHdgOeEhTMiMDdKnOlppPE" Ids="GdF0pSgBBqcLAT3PoLURWl,Ksj0s33uy7RLNG0nlJwdil" />
           <Link Id="D9u57lNmB5yN1S0rRXuwUg" Ids="Ksj0s33uy7RLNG0nlJwdil,IFmE2naMgUJLI2b4rgtdkI" />
           <Link Id="Em5glEVSwhLOiiVHV43Ebd" Ids="IFmE2naMgUJLI2b4rgtdkI,RHup0HPRRpSPU7ATLla7Ar" IsHidden="true" />
+          <Link Id="SdIEe2uyaX2MIwD2rOrpRR" Ids="Tl9HlwlivnSLBu4BEhrJAD,MhxJZz7nsbxOmcV5MDVl2H" />
+          <Link Id="BuCCt2uyVdlOpk0SRtvpxV" Ids="NpDcRrTxyD2PI1MpuYvOVX,Tl9HlwlivnSLBu4BEhrJAD" IsHidden="true" />
+          <Link Id="KpqxmjdHjKROGEGYtSDF63" Ids="HG6xyVSyuClQENXLlUI2lE,OCDfHLjj1i9PjEMsuiH3DW" />
+          <Link Id="KCb4hcTOEDDP63JAgKhAXX" Ids="BEjsDhSHBj7OomKeaIfxtT,HG6xyVSyuClQENXLlUI2lE" IsHidden="true" />
         </Patch>
       </Node>
     </Canvas>
